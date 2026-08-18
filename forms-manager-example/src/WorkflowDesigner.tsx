@@ -1,16 +1,14 @@
 import "@optimajet/workflow-designer-react/css";
 
 import Designer, {
-    type WorkflowDesignerConfig,
+  type WorkflowDesignerConfig,
 } from "@optimajet/workflow-designer-react/strict";
 import {
-    forwardRef,
-    useCallback,
-    useEffect,
-    useImperativeHandle,
-    useMemo,
-    useRef,
-    useState,
+  forwardRef,
+  useCallback,
+  useImperativeHandle,
+  useMemo,
+  useRef
 } from "react";
 
 interface Props {
