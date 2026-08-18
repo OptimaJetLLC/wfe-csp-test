@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms-manager-example</title>
+
+    <!-- Use https://cdn.jsdelivr.net to load Monaco if you're loading it from a CDN -->
+    <meta http-equiv="Content-Security-Policy"
+     content="default-src 'self';
+              script-src 'self' 'unsafe-eval';
+              script-src-elem 'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+              style-src 'unsafe-inline' https://cdn.jsdelivr.net file:;
+              img-src 'self' data:;
+              font-src 'self' https://cdn.jsdelivr.net data:;
+              connect-src 'self' https://cdn.jsdelivr.net https://localhost:5141 https://demo.workflowengine.io;
+              object-src 'none';
+              base-uri 'self';
+              worker-src 'self' blob:;
+              form-action 'self';">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
